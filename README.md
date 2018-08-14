@@ -29,7 +29,7 @@ The mock up for our iOS application shows a general overview of the layout, in t
 If you'd like to contribute, come to a [meetup](https://www.meetup.com/Code-For-Orlando/), join our [slack](codefororlando.slack.com), or fork the project and create a pull request.
 
 ## License
-[The MIT License (MIT)](LICENSE.md)
+[The MIT License (MIT)](LICENSE)
 
 ## About Code for Orlando
 [Code for Orlando](http://www.codefororlando.com/), a local Code for America brigade, brings the community together to improve Orlando through technology.  We are a group of "civic hackers" from various disciplines who are committed to volunteering our talents to make a difference in the local communmity through technology.  We unite to improve the way the community, visitors, and local government experience Orlando.
