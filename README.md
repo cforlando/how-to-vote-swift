@@ -1,5 +1,4 @@
-[![Waffle.io - Issues in progress](https://badge.waffle.io/cforlando/how-to-vote-swift.png?label=in%20progress&title=In%20Progress)](http://waffle.io/cforlando/how-to-vote-swift)
-
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/cforlando/how-to-vote-swift.svg?columns=all)](https://waffle.io/cforlando/how-to-vote-swift) 
 # How to Vote - Swift
 
 During voting season, citizens are thoroughly encouraged to take to the polls, but voting is no easy task. In an effort to increase voter knowledge/turnout, How to VOTE will provide easy to understand and useful tools for voters. This project, in its full glory, will function as a hub of information, ranging from the roles of officials in government in simple terms, understanding a ballot, getting candidate information, and finding your polling location. 
