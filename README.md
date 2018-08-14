@@ -12,6 +12,10 @@ As previously stated, the end goal of How to VOTE is to increase voter turnout a
 The mock up for our iOS application shows a general overview of the layout, in the future we would like to incorporate additional knowledge hubs as previously mentioned, as well as additional functionality in the form of an interactive ballot to teach new voters the correct procedures when they get to the poll booth. Furthermore, we would like to expand this software to Android platforms, and potentially web-based as well.
 
 ```
+
+## Mockup
+[Mockup of search by address functionality](https://invis.io/5FNH80JHZYK)
+
 ## Getting Started
 
 
