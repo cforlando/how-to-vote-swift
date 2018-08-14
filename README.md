@@ -1,4 +1,4 @@
-# Project Title
+# How to Vote - Swift
 
 One Paragraph of project description goes here
 
