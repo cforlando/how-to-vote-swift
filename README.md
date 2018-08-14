@@ -8,7 +8,7 @@ The mock up for our iOS application shows a general overview of the layout, in t
 
 ## Mockup
 [Mockup of search by address functionality](https://invis.io/5FNH80JHZYK)
-------
+
 ## Getting Started
 
 ## Requirements
