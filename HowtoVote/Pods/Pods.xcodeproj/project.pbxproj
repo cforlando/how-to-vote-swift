@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,12 +56,12 @@
 		23798B33A593084C2A30707C4DE7C539 /* Pulley.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulley.modulemap; sourceTree = "<group>"; };
 		264467C7591D41E4A671F983F712A082 /* Pods-HowtoVoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2749C7E32AD2F96888C9CD1C1361A32E /* Pods-HowtoVote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HowtoVote-umbrella.h"; sourceTree = "<group>"; };
-		29982D8CE17CAD57E44EAE45D9BD85E4 /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pulley.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29982D8CE17CAD57E44EAE45D9BD85E4 /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D03CD0B1B69BFC174597DB72509D908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34E836F2516A5D985A4B2B09CD3F8FED /* Pulley-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulley-umbrella.h"; sourceTree = "<group>"; };
 		46CADCE9BBA6BE352207552A502F2DDE /* Pods-HowtoVote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HowtoVote-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E083E561156B1CC74496CC7F83390D6 /* PulleyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PulleyViewController.swift; path = PulleyLib/PulleyViewController.swift; sourceTree = "<group>"; };
-		50624FE7938D710CB9326B2254743231 /* Pods_HowtoVoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HowtoVoteTests.framework; path = "Pods-HowtoVoteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50624FE7938D710CB9326B2254743231 /* Pods_HowtoVoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B05D2B273CEA05C74D89C55BE1977E5 /* Pods-HowtoVoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D700A0A1B05188B7B6DF0FECC153742 /* Pods-HowtoVoteUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVoteUITests-resources.sh"; sourceTree = "<group>"; };
 		66855A2EDB408D8C4F07E1813605E279 /* Pods-HowtoVoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,10 +74,10 @@
 		7E11CEAB3E0897D446A6099695EBAD98 /* Pods-HowtoVoteTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVoteTests-frameworks.sh"; sourceTree = "<group>"; };
 		86F5F9A8CDD305EA8BEE0F890FC035A5 /* Pods-HowtoVoteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HowtoVoteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DA4CAF016FE2CD9A61D52C8E6BD4A50 /* Pods-HowtoVoteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HowtoVoteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9868F67B8E37E8CEEF1D53EA3400F4AB /* Pods-HowtoVoteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HowtoVoteTests.modulemap"; sourceTree = "<group>"; };
-		998CE55360F7959E5A140BD87FFD5881 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HowtoVote.framework; path = "Pods-HowtoVote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BE08B7EDD3BDBCDBE0185367CF60CF8 /* Pods_HowtoVoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HowtoVoteUITests.framework; path = "Pods-HowtoVoteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998CE55360F7959E5A140BD87FFD5881 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE08B7EDD3BDBCDBE0185367CF60CF8 /* Pods_HowtoVoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFC4C12DB690C21CCE1711D2BA39F8C /* Pods-HowtoVoteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HowtoVoteUITests-dummy.m"; sourceTree = "<group>"; };
 		ADDEEF06B970FD203270B82D936A00E5 /* Pods-HowtoVote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVote.debug.xcconfig"; sourceTree = "<group>"; };
 		B0C2CAC899046E46F5D7C77DFDC48370 /* Pulley-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulley-prefix.pch"; sourceTree = "<group>"; };
@@ -243,7 +243,6 @@
 				6B3370910BFE4C843C0059A28000BE8F /* UIViewController+PulleyViewController.swift */,
 				8BD740388B8B7133E712DB79BA0FBA46 /* Support Files */,
 			);
-			name = Pulley;
 			path = Pulley;
 			sourceTree = "<group>";
 		};
@@ -391,7 +390,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -761,6 +760,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
