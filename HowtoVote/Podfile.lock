@@ -1,0 +1,16 @@
+PODS:
+  - Pulley (2.4.2)
+
+DEPENDENCIES:
+  - Pulley
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Pulley
+
+SPEC CHECKSUMS:
+  Pulley: d3d144a0323b65b8aa1dd601d515d08481103034
+
+PODFILE CHECKSUM: 5fcad9c6d517838171964804135b2cc8075430c5
+
+COCOAPODS: 1.5.0

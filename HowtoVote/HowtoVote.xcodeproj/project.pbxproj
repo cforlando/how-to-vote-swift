@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		518BF2E58EC937B4C50FF9EB /* Pods_HowtoVoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3AF44C9AEC931CC08FABB1 /* Pods_HowtoVoteUITests.framework */; };
 		6FD803F32123766500528531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD803F22123766500528531 /* AppDelegate.swift */; };
 		6FD803FA2123766700528531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD803F92123766700528531 /* Assets.xcassets */; };
 		6FD803FD2123766700528531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD803FB2123766700528531 /* LaunchScreen.storyboard */; };
@@ -15,6 +16,8 @@
 		6FD804232123773E00528531 /* SearchByAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD804222123773E00528531 /* SearchByAddressVC.swift */; };
 		6FD804242123773E00528531 /* SearchByAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD804222123773E00528531 /* SearchByAddressVC.swift */; };
 		6FD804252123773E00528531 /* SearchByAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD804222123773E00528531 /* SearchByAddressVC.swift */; };
+		94260B9E5625C3DB016EC242 /* Pods_HowtoVoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBE74DE43EE3B49A3BFB8D0 /* Pods_HowtoVoteTests.framework */; };
+		AC719EF9CC7C8DBC1CC02238 /* Pods_HowtoVote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E98008692FEE905FE2F3B3 /* Pods_HowtoVote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19DD8302E0D6C46269A84273 /* Pods-HowtoVoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVoteUITests/Pods-HowtoVoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EBE74DE43EE3B49A3BFB8D0 /* Pods_HowtoVoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D51D08EE388C2C814A0077 /* Pods-HowtoVoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVoteTests/Pods-HowtoVoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65E4EC414ED60993ADDF1AA6 /* Pods-HowtoVoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVoteTests/Pods-HowtoVoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		68D051C4CE27C926A4397443 /* Pods-HowtoVoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVoteUITests/Pods-HowtoVoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69E98008692FEE905FE2F3B3 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD803EF2123766500528531 /* HowtoVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowtoVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD803F22123766500528531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD803F92123766700528531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		6FD804122123766800528531 /* HowtoVoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoVoteUITests.swift; sourceTree = "<group>"; };
 		6FD804142123766800528531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FD804222123773E00528531 /* SearchByAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByAddressVC.swift; sourceTree = "<group>"; };
+		86D2B64D4D4B48E3C6E78CDC /* Pods-HowtoVote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVote/Pods-HowtoVote.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3B4D444FF875705A9C74DA /* Pods-HowtoVote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVote.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVote/Pods-HowtoVote.release.xcconfig"; sourceTree = "<group>"; };
+		FD3AF44C9AEC931CC08FABB1 /* Pods_HowtoVoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC719EF9CC7C8DBC1CC02238 /* Pods_HowtoVote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94260B9E5625C3DB016EC242 /* Pods_HowtoVoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518BF2E58EC937B4C50FF9EB /* Pods_HowtoVoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				6FD804062123766800528531 /* HowtoVoteTests */,
 				6FD804112123766800528531 /* HowtoVoteUITests */,
 				6FD803F02123766500528531 /* Products */,
+				9370DD067B4EED1D5D0EE808 /* Pods */,
+				DD234F544A75C76B2AE4F6C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		9370DD067B4EED1D5D0EE808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86D2B64D4D4B48E3C6E78CDC /* Pods-HowtoVote.debug.xcconfig */,
+				EE3B4D444FF875705A9C74DA /* Pods-HowtoVote.release.xcconfig */,
+				60D51D08EE388C2C814A0077 /* Pods-HowtoVoteTests.debug.xcconfig */,
+				65E4EC414ED60993ADDF1AA6 /* Pods-HowtoVoteTests.release.xcconfig */,
+				19DD8302E0D6C46269A84273 /* Pods-HowtoVoteUITests.debug.xcconfig */,
+				68D051C4CE27C926A4397443 /* Pods-HowtoVoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD234F544A75C76B2AE4F6C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69E98008692FEE905FE2F3B3 /* Pods_HowtoVote.framework */,
+				3EBE74DE43EE3B49A3BFB8D0 /* Pods_HowtoVoteTests.framework */,
+				FD3AF44C9AEC931CC08FABB1 /* Pods_HowtoVoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FD804172123766800528531 /* Build configuration list for PBXNativeTarget "HowtoVote" */;
 			buildPhases = (
+				4488487CCBBFA6339A54E664 /* [CP] Check Pods Manifest.lock */,
 				6FD803EB2123766500528531 /* Sources */,
 				6FD803EC2123766500528531 /* Frameworks */,
 				6FD803ED2123766500528531 /* Resources */,
+				32AEA2A1F8B5691BC00607A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FD8041A2123766800528531 /* Build configuration list for PBXNativeTarget "HowtoVoteTests" */;
 			buildPhases = (
+				676455E75CD79A10E342D7DA /* [CP] Check Pods Manifest.lock */,
 				6FD803FF2123766800528531 /* Sources */,
 				6FD804002123766800528531 /* Frameworks */,
 				6FD804012123766800528531 /* Resources */,
@@ -182,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FD8041D2123766800528531 /* Build configuration list for PBXNativeTarget "HowtoVoteUITests" */;
 			buildPhases = (
+				4093DC250660D641E5BEB642 /* [CP] Check Pods Manifest.lock */,
 				6FD8040A2123766800528531 /* Sources */,
 				6FD8040B2123766800528531 /* Frameworks */,
 				6FD8040C2123766800528531 /* Resources */,
@@ -264,6 +308,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32AEA2A1F8B5691BC00607A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowtoVote/Pods-HowtoVote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowtoVote/Pods-HowtoVote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4093DC250660D641E5BEB642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowtoVoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4488487CCBBFA6339A54E664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowtoVote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		676455E75CD79A10E342D7DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowtoVoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6FD803EB2123766500528531 /* Sources */ = {
@@ -436,14 +555,12 @@
 		};
 		6FD804182123766800528531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D2B64D4D4B48E3C6E78CDC /* Pods-HowtoVote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVote/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -453,14 +570,12 @@
 		};
 		6FD804192123766800528531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3B4D444FF875705A9C74DA /* Pods-HowtoVote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVote/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -470,16 +585,13 @@
 		};
 		6FD8041B2123766800528531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D51D08EE388C2C814A0077 /* Pods-HowtoVoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -490,16 +602,13 @@
 		};
 		6FD8041C2123766800528531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E4EC414ED60993ADDF1AA6 /* Pods-HowtoVoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,15 +619,12 @@
 		};
 		6FD8041E2123766800528531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DD8302E0D6C46269A84273 /* Pods-HowtoVoteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -529,15 +635,12 @@
 		};
 		6FD8041F2123766800528531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D051C4CE27C926A4397443 /* Pods-HowtoVoteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

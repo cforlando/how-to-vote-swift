@@ -1,0 +1,6 @@
+framework module Pods_HowtoVoteUITests {
+  umbrella header "Pods-HowtoVoteUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

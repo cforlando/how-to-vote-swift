@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033EC83761436A3A16F2C4A6A035F595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1D1E9AFBA92852814BBEB54E97434238 /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431B0E5389C30955C139231ACF4FCD3 /* PulleyPassthroughScrollView.swift */; };
+		1E26A48C3288DFFD28954F981F8358F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3865F495C09D5F6B516E70097A300CB0 /* Pods-HowtoVoteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F61142232DF4E7E1AC1C06E929E40B65 /* Pods-HowtoVoteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4178B7AF05C1519B774C78FD88D28ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		46EA8CADEBE53945DCFC676F5DCD1ABB /* Pods-HowtoVote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F389C615A6331B4CDB5C97CD07EED3C8 /* Pods-HowtoVote-dummy.m */; };
+		55D8243E22F7BAE17E25C05F5F0AA7A0 /* Pods-HowtoVote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2749C7E32AD2F96888C9CD1C1361A32E /* Pods-HowtoVote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8933925A9A0F41CCF8599014C9C9DB27 /* Pods-HowtoVoteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC4C12DB690C21CCE1711D2BA39F8C /* Pods-HowtoVoteUITests-dummy.m */; };
+		A7068AD0C409545CE1312DCDFFCC7596 /* UIView+constrainToParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F2D4B53D9B3EBE2E00730518D29F0 /* UIView+constrainToParent.swift */; };
+		C2F12A5032E175380BDA1D88A5E10D6B /* UIViewController+PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3370910BFE4C843C0059A28000BE8F /* UIViewController+PulleyViewController.swift */; };
+		CC4F34327E03E9D9245CE7E54EE4493E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		DD0EECB91FC622256D3D643F70DEAD2D /* Pulley-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3224A3CDD663F3C95D1AFE73FC24A2 /* Pulley-dummy.m */; };
+		E327F5337DC735120F75A62465FAAEA2 /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E083E561156B1CC74496CC7F83390D6 /* PulleyViewController.swift */; };
+		E4189B07202853F06DFDD2A0B74FFA4F /* Pulley-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E836F2516A5D985A4B2B09CD3F8FED /* Pulley-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A714048B5D7C307FC4497E63C3F3B3 /* Pods-HowtoVoteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9477323CEFE823671650BA6F0A4EA55 /* Pods-HowtoVoteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA58228F9817A1AA6DFFCFAA81070285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FE48A43FC99224B3BDA1DF3ED45D3870 /* Pods-HowtoVoteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EA55689BD58EC2A65CD7ABF1077D8D /* Pods-HowtoVoteTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD11825F693C9E86D12CF6EF6BDE4AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCEF0A52E58ADEEF7AB6E378A0A3D1A;
+			remoteInfo = "Pods-HowtoVote";
+		};
+		E3A25E22134B542E3D8AC2403C784148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3765B4C0B39F128ABB5AB036C5F3AABE;
+			remoteInfo = Pulley;
+		};
+		F2216D734C992CF9AE8533BB0FB32E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCEF0A52E58ADEEF7AB6E378A0A3D1A;
+			remoteInfo = "Pods-HowtoVote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B83AAC4B8153C6F967A78D10538734 /* Pulley.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulley.xcconfig; sourceTree = "<group>"; };
+		1EEC28114452F0814B322F439DBC9D3A /* Pods-HowtoVoteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HowtoVoteUITests.modulemap"; sourceTree = "<group>"; };
+		23798B33A593084C2A30707C4DE7C539 /* Pulley.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulley.modulemap; sourceTree = "<group>"; };
+		264467C7591D41E4A671F983F712A082 /* Pods-HowtoVoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2749C7E32AD2F96888C9CD1C1361A32E /* Pods-HowtoVote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HowtoVote-umbrella.h"; sourceTree = "<group>"; };
+		29982D8CE17CAD57E44EAE45D9BD85E4 /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pulley.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03CD0B1B69BFC174597DB72509D908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E836F2516A5D985A4B2B09CD3F8FED /* Pulley-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulley-umbrella.h"; sourceTree = "<group>"; };
+		46CADCE9BBA6BE352207552A502F2DDE /* Pods-HowtoVote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HowtoVote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E083E561156B1CC74496CC7F83390D6 /* PulleyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PulleyViewController.swift; path = PulleyLib/PulleyViewController.swift; sourceTree = "<group>"; };
+		50624FE7938D710CB9326B2254743231 /* Pods_HowtoVoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HowtoVoteTests.framework; path = "Pods-HowtoVoteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B05D2B273CEA05C74D89C55BE1977E5 /* Pods-HowtoVoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D700A0A1B05188B7B6DF0FECC153742 /* Pods-HowtoVoteUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVoteUITests-resources.sh"; sourceTree = "<group>"; };
+		66855A2EDB408D8C4F07E1813605E279 /* Pods-HowtoVoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0F2D4B53D9B3EBE2E00730518D29F0 /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constrainToParent.swift"; path = "PulleyLib/UIView+constrainToParent.swift"; sourceTree = "<group>"; };
+		6B3370910BFE4C843C0059A28000BE8F /* UIViewController+PulleyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PulleyViewController.swift"; path = "PulleyLib/UIViewController+PulleyViewController.swift"; sourceTree = "<group>"; };
+		6E3224A3CDD663F3C95D1AFE73FC24A2 /* Pulley-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulley-dummy.m"; sourceTree = "<group>"; };
+		76B911A944256B5322AE309693FC9F12 /* Pods-HowtoVote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVote-frameworks.sh"; sourceTree = "<group>"; };
+		775B0C3BF6BAD81AB279F9B6E65BA9BF /* Pods-HowtoVoteUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVoteUITests-frameworks.sh"; sourceTree = "<group>"; };
+		79D3C3A363E8490A1161B6DA2BFF83A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E11CEAB3E0897D446A6099695EBAD98 /* Pods-HowtoVoteTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVoteTests-frameworks.sh"; sourceTree = "<group>"; };
+		86F5F9A8CDD305EA8BEE0F890FC035A5 /* Pods-HowtoVoteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HowtoVoteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DA4CAF016FE2CD9A61D52C8E6BD4A50 /* Pods-HowtoVoteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HowtoVoteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9868F67B8E37E8CEEF1D53EA3400F4AB /* Pods-HowtoVoteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HowtoVoteTests.modulemap"; sourceTree = "<group>"; };
+		998CE55360F7959E5A140BD87FFD5881 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HowtoVote.framework; path = "Pods-HowtoVote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE08B7EDD3BDBCDBE0185367CF60CF8 /* Pods_HowtoVoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HowtoVoteUITests.framework; path = "Pods-HowtoVoteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFC4C12DB690C21CCE1711D2BA39F8C /* Pods-HowtoVoteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HowtoVoteUITests-dummy.m"; sourceTree = "<group>"; };
+		ADDEEF06B970FD203270B82D936A00E5 /* Pods-HowtoVote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVote.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C2CAC899046E46F5D7C77DFDC48370 /* Pulley-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulley-prefix.pch"; sourceTree = "<group>"; };
+		B2F2100AD3EEFC06CF353C0BEC8C906C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6646E35CB4668F681127D4EDF778ACA /* Pods-HowtoVoteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HowtoVoteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9C5D26CA2846B071EF665717AA4E064 /* Pods-HowtoVoteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HowtoVoteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C125AB28AAD280EC9E58C9B2AAE62D49 /* Pods-HowtoVote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HowtoVote.modulemap"; sourceTree = "<group>"; };
+		C6F0A4E37EA7E4DFACE94917EC5513E6 /* Pods-HowtoVoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF8FAF43CB11BF017B95A42186B67A8A /* Pods-HowtoVote-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVote-resources.sh"; sourceTree = "<group>"; };
+		D3C274A30BD7E67395E7E6745AF6F220 /* Pods-HowtoVoteTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HowtoVoteTests-resources.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E15CE232865D91CDE143B9715F5438F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E210B259AC2A3F2386943A14714D7085 /* Pods-HowtoVote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HowtoVote.release.xcconfig"; sourceTree = "<group>"; };
+		E893D6A4DC99786C276777D2FB2D9896 /* Pods-HowtoVote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HowtoVote-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9477323CEFE823671650BA6F0A4EA55 /* Pods-HowtoVoteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HowtoVoteTests-umbrella.h"; sourceTree = "<group>"; };
+		F2EA55689BD58EC2A65CD7ABF1077D8D /* Pods-HowtoVoteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HowtoVoteTests-dummy.m"; sourceTree = "<group>"; };
+		F389C615A6331B4CDB5C97CD07EED3C8 /* Pods-HowtoVote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HowtoVote-dummy.m"; sourceTree = "<group>"; };
+		F431B0E5389C30955C139231ACF4FCD3 /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PulleyPassthroughScrollView.swift; path = PulleyLib/PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
+		F61142232DF4E7E1AC1C06E929E40B65 /* Pods-HowtoVoteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HowtoVoteUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2403BD6C796468133AB9F58E03DB08E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4178B7AF05C1519B774C78FD88D28ED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE4B6DEB05573DE4A4A810C48760652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E26A48C3288DFFD28954F981F8358F4 /* Foundation.framework in Frameworks */,
+				CC4F34327E03E9D9245CE7E54EE4493E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900DADC36C6BA186F149532FCE898CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033EC83761436A3A16F2C4A6A035F595 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB059C25BE4CABF34C3433ED9A7D04C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA58228F9817A1AA6DFFCFAA81070285 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4890BE58F8D41EB0764CCED8862D7C79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3D5084E6AD716F1D742797198099FA3 /* Pulley */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E33C86C0F66A6EB767E66BCAF7A7319 /* Pods-HowtoVoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2100AD3EEFC06CF353C0BEC8C906C /* Info.plist */,
+				1EEC28114452F0814B322F439DBC9D3A /* Pods-HowtoVoteUITests.modulemap */,
+				8DA4CAF016FE2CD9A61D52C8E6BD4A50 /* Pods-HowtoVoteUITests-acknowledgements.markdown */,
+				86F5F9A8CDD305EA8BEE0F890FC035A5 /* Pods-HowtoVoteUITests-acknowledgements.plist */,
+				AAFC4C12DB690C21CCE1711D2BA39F8C /* Pods-HowtoVoteUITests-dummy.m */,
+				775B0C3BF6BAD81AB279F9B6E65BA9BF /* Pods-HowtoVoteUITests-frameworks.sh */,
+				5D700A0A1B05188B7B6DF0FECC153742 /* Pods-HowtoVoteUITests-resources.sh */,
+				F61142232DF4E7E1AC1C06E929E40B65 /* Pods-HowtoVoteUITests-umbrella.h */,
+				66855A2EDB408D8C4F07E1813605E279 /* Pods-HowtoVoteUITests.debug.xcconfig */,
+				264467C7591D41E4A671F983F712A082 /* Pods-HowtoVoteUITests.release.xcconfig */,
+			);
+			name = "Pods-HowtoVoteUITests";
+			path = "Target Support Files/Pods-HowtoVoteUITests";
+			sourceTree = "<group>";
+		};
+		7B98F56CBE1C709406FF294EA330D662 /* Pods-HowtoVoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				79D3C3A363E8490A1161B6DA2BFF83A6 /* Info.plist */,
+				9868F67B8E37E8CEEF1D53EA3400F4AB /* Pods-HowtoVoteTests.modulemap */,
+				B9C5D26CA2846B071EF665717AA4E064 /* Pods-HowtoVoteTests-acknowledgements.markdown */,
+				B6646E35CB4668F681127D4EDF778ACA /* Pods-HowtoVoteTests-acknowledgements.plist */,
+				F2EA55689BD58EC2A65CD7ABF1077D8D /* Pods-HowtoVoteTests-dummy.m */,
+				7E11CEAB3E0897D446A6099695EBAD98 /* Pods-HowtoVoteTests-frameworks.sh */,
+				D3C274A30BD7E67395E7E6745AF6F220 /* Pods-HowtoVoteTests-resources.sh */,
+				E9477323CEFE823671650BA6F0A4EA55 /* Pods-HowtoVoteTests-umbrella.h */,
+				5B05D2B273CEA05C74D89C55BE1977E5 /* Pods-HowtoVoteTests.debug.xcconfig */,
+				C6F0A4E37EA7E4DFACE94917EC5513E6 /* Pods-HowtoVoteTests.release.xcconfig */,
+			);
+			name = "Pods-HowtoVoteTests";
+			path = "Target Support Files/Pods-HowtoVoteTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4890BE58F8D41EB0764CCED8862D7C79 /* Pods */,
+				95AAAD2BB806577568EACB31957A1ABF /* Products */,
+				D76AF4FA50B02ACB4E8CF417D6992543 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD740388B8B7133E712DB79BA0FBA46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15CE232865D91CDE143B9715F5438F1 /* Info.plist */,
+				23798B33A593084C2A30707C4DE7C539 /* Pulley.modulemap */,
+				00B83AAC4B8153C6F967A78D10538734 /* Pulley.xcconfig */,
+				6E3224A3CDD663F3C95D1AFE73FC24A2 /* Pulley-dummy.m */,
+				B0C2CAC899046E46F5D7C77DFDC48370 /* Pulley-prefix.pch */,
+				34E836F2516A5D985A4B2B09CD3F8FED /* Pulley-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulley";
+			sourceTree = "<group>";
+		};
+		95AAAD2BB806577568EACB31957A1ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998CE55360F7959E5A140BD87FFD5881 /* Pods_HowtoVote.framework */,
+				50624FE7938D710CB9326B2254743231 /* Pods_HowtoVoteTests.framework */,
+				9BE08B7EDD3BDBCDBE0185367CF60CF8 /* Pods_HowtoVoteUITests.framework */,
+				29982D8CE17CAD57E44EAE45D9BD85E4 /* Pulley.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D5084E6AD716F1D742797198099FA3 /* Pulley */ = {
+			isa = PBXGroup;
+			children = (
+				F431B0E5389C30955C139231ACF4FCD3 /* PulleyPassthroughScrollView.swift */,
+				4E083E561156B1CC74496CC7F83390D6 /* PulleyViewController.swift */,
+				6B0F2D4B53D9B3EBE2E00730518D29F0 /* UIView+constrainToParent.swift */,
+				6B3370910BFE4C843C0059A28000BE8F /* UIViewController+PulleyViewController.swift */,
+				8BD740388B8B7133E712DB79BA0FBA46 /* Support Files */,
+			);
+			name = Pulley;
+			path = Pulley;
+			sourceTree = "<group>";
+		};
+		D48FE12A50AC7CACB3E500A2A2AC5B1D /* Pods-HowtoVote */ = {
+			isa = PBXGroup;
+			children = (
+				2D03CD0B1B69BFC174597DB72509D908 /* Info.plist */,
+				C125AB28AAD280EC9E58C9B2AAE62D49 /* Pods-HowtoVote.modulemap */,
+				46CADCE9BBA6BE352207552A502F2DDE /* Pods-HowtoVote-acknowledgements.markdown */,
+				E893D6A4DC99786C276777D2FB2D9896 /* Pods-HowtoVote-acknowledgements.plist */,
+				F389C615A6331B4CDB5C97CD07EED3C8 /* Pods-HowtoVote-dummy.m */,
+				76B911A944256B5322AE309693FC9F12 /* Pods-HowtoVote-frameworks.sh */,
+				CF8FAF43CB11BF017B95A42186B67A8A /* Pods-HowtoVote-resources.sh */,
+				2749C7E32AD2F96888C9CD1C1361A32E /* Pods-HowtoVote-umbrella.h */,
+				ADDEEF06B970FD203270B82D936A00E5 /* Pods-HowtoVote.debug.xcconfig */,
+				E210B259AC2A3F2386943A14714D7085 /* Pods-HowtoVote.release.xcconfig */,
+			);
+			name = "Pods-HowtoVote";
+			path = "Target Support Files/Pods-HowtoVote";
+			sourceTree = "<group>";
+		};
+		D76AF4FA50B02ACB4E8CF417D6992543 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48FE12A50AC7CACB3E500A2A2AC5B1D /* Pods-HowtoVote */,
+				7B98F56CBE1C709406FF294EA330D662 /* Pods-HowtoVoteTests */,
+				4E33C86C0F66A6EB767E66BCAF7A7319 /* Pods-HowtoVoteUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D701B9E7BF0F50ACB2D8BD89381AF12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865F495C09D5F6B516E70097A300CB0 /* Pods-HowtoVoteUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFB9A07469F105233AB82F45AF69FEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4189B07202853F06DFDD2A0B74FFA4F /* Pulley-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06F8FCA6FA110162BC8AD602E10136D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8243E22F7BAE17E25C05F5F0AA7A0 /* Pods-HowtoVote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21C1EE403E9B4AF348E00F5778DC7EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A714048B5D7C307FC4497E63C3F3B3 /* Pods-HowtoVoteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3765B4C0B39F128ABB5AB036C5F3AABE /* Pulley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62AF08C97E2BA1F1FBCF8C24B7FD288 /* Build configuration list for PBXNativeTarget "Pulley" */;
+			buildPhases = (
+				6A3031C25CA55583AFC9EB8692BA0D2D /* Sources */,
+				7AE4B6DEB05573DE4A4A810C48760652 /* Frameworks */,
+				AEFB9A07469F105233AB82F45AF69FEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulley;
+			productName = Pulley;
+			productReference = 29982D8CE17CAD57E44EAE45D9BD85E4 /* Pulley.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DCEF0A52E58ADEEF7AB6E378A0A3D1A /* Pods-HowtoVote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE573AA3FF36059CA7AE5808853F5B62 /* Build configuration list for PBXNativeTarget "Pods-HowtoVote" */;
+			buildPhases = (
+				003245C8FA45A9234764062724B7D54B /* Sources */,
+				900DADC36C6BA186F149532FCE898CCE /* Frameworks */,
+				F06F8FCA6FA110162BC8AD602E10136D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3820D1F257B52F228CC6FF163866EB15 /* PBXTargetDependency */,
+			);
+			name = "Pods-HowtoVote";
+			productName = "Pods-HowtoVote";
+			productReference = 998CE55360F7959E5A140BD87FFD5881 /* Pods_HowtoVote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AB3E8F10D7A4622E07B9D7D2D1FFCF3 /* Pods-HowtoVoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A726EFD205A435D8B8770D3DA1100AC /* Build configuration list for PBXNativeTarget "Pods-HowtoVoteTests" */;
+			buildPhases = (
+				4D07F74FF56AFA9A447F7EFF54D224AA /* Sources */,
+				2403BD6C796468133AB9F58E03DB08E5 /* Frameworks */,
+				F21C1EE403E9B4AF348E00F5778DC7EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3770DC07C310677E9DA0D9AF1F819E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HowtoVoteTests";
+			productName = "Pods-HowtoVoteTests";
+			productReference = 50624FE7938D710CB9326B2254743231 /* Pods_HowtoVoteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9183977EA86A2657E0541323C714FC7 /* Pods-HowtoVoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C38CFA7AB30C8B9D3B338C9F5C642A /* Build configuration list for PBXNativeTarget "Pods-HowtoVoteUITests" */;
+			buildPhases = (
+				53ADD2E7ADAEF486014F4644EAFC7269 /* Sources */,
+				CB059C25BE4CABF34C3433ED9A7D04C5 /* Frameworks */,
+				9D701B9E7BF0F50ACB2D8BD89381AF12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6BFF92773712FB8FEE482AFF1A644B /* PBXTargetDependency */,
+			);
+			name = "Pods-HowtoVoteUITests";
+			productName = "Pods-HowtoVoteUITests";
+			productReference = 9BE08B7EDD3BDBCDBE0185367CF60CF8 /* Pods_HowtoVoteUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 95AAAD2BB806577568EACB31957A1ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DCEF0A52E58ADEEF7AB6E378A0A3D1A /* Pods-HowtoVote */,
+				9AB3E8F10D7A4622E07B9D7D2D1FFCF3 /* Pods-HowtoVoteTests */,
+				F9183977EA86A2657E0541323C714FC7 /* Pods-HowtoVoteUITests */,
+				3765B4C0B39F128ABB5AB036C5F3AABE /* Pulley */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003245C8FA45A9234764062724B7D54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EA8CADEBE53945DCFC676F5DCD1ABB /* Pods-HowtoVote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D07F74FF56AFA9A447F7EFF54D224AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE48A43FC99224B3BDA1DF3ED45D3870 /* Pods-HowtoVoteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53ADD2E7ADAEF486014F4644EAFC7269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8933925A9A0F41CCF8599014C9C9DB27 /* Pods-HowtoVoteUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3031C25CA55583AFC9EB8692BA0D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0EECB91FC622256D3D643F70DEAD2D /* Pulley-dummy.m in Sources */,
+				1D1E9AFBA92852814BBEB54E97434238 /* PulleyPassthroughScrollView.swift in Sources */,
+				E327F5337DC735120F75A62465FAAEA2 /* PulleyViewController.swift in Sources */,
+				A7068AD0C409545CE1312DCDFFCC7596 /* UIView+constrainToParent.swift in Sources */,
+				C2F12A5032E175380BDA1D88A5E10D6B /* UIViewController+PulleyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3820D1F257B52F228CC6FF163866EB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pulley;
+			target = 3765B4C0B39F128ABB5AB036C5F3AABE /* Pulley */;
+			targetProxy = E3A25E22134B542E3D8AC2403C784148 /* PBXContainerItemProxy */;
+		};
+		6F6BFF92773712FB8FEE482AFF1A644B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HowtoVote";
+			target = 7DCEF0A52E58ADEEF7AB6E378A0A3D1A /* Pods-HowtoVote */;
+			targetProxy = F2216D734C992CF9AE8533BB0FB32E3B /* PBXContainerItemProxy */;
+		};
+		C3770DC07C310677E9DA0D9AF1F819E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HowtoVote";
+			target = 7DCEF0A52E58ADEEF7AB6E378A0A3D1A /* Pods-HowtoVote */;
+			targetProxy = DD11825F693C9E86D12CF6EF6BDE4AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D41AFB468186780A45B9CB2FE29C230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66855A2EDB408D8C4F07E1813605E279 /* Pods-HowtoVoteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HowtoVoteUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HowtoVoteUITests/Pods-HowtoVoteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323C2FD6C705513BBBFF7D69595BA0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264467C7591D41E4A671F983F712A082 /* Pods-HowtoVoteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HowtoVoteUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HowtoVoteUITests/Pods-HowtoVoteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A641CA73F93CC05B5663E46F8BCE9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E210B259AC2A3F2386943A14714D7085 /* Pods-HowtoVote.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HowtoVote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HowtoVote/Pods-HowtoVote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A114E7F65D7DD25DCF8728053705168A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B83AAC4B8153C6F967A78D10538734 /* Pulley.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulley/Pulley-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulley/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pulley/Pulley.modulemap";
+				PRODUCT_MODULE_NAME = Pulley;
+				PRODUCT_NAME = Pulley;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2287EE81720BDCA7E72694C6425C8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B83AAC4B8153C6F967A78D10538734 /* Pulley.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulley/Pulley-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulley/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pulley/Pulley.modulemap";
+				PRODUCT_MODULE_NAME = Pulley;
+				PRODUCT_NAME = Pulley;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B52CA862B951AF8F1E10EB4A59443E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B05D2B273CEA05C74D89C55BE1977E5 /* Pods-HowtoVoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HowtoVoteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HowtoVoteTests/Pods-HowtoVoteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA9C3DC6F41127FE6FB3C93B49D64572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDEEF06B970FD203270B82D936A00E5 /* Pods-HowtoVote.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HowtoVote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HowtoVote/Pods-HowtoVote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECDB04AAE9F903A59830B79740780BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F0A4E37EA7E4DFACE94917EC5513E6 /* Pods-HowtoVoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HowtoVoteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HowtoVoteTests/Pods-HowtoVoteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C38CFA7AB30C8B9D3B338C9F5C642A /* Build configuration list for PBXNativeTarget "Pods-HowtoVoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41AFB468186780A45B9CB2FE29C230 /* Debug */,
+				323C2FD6C705513BBBFF7D69595BA0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A726EFD205A435D8B8770D3DA1100AC /* Build configuration list for PBXNativeTarget "Pods-HowtoVoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52CA862B951AF8F1E10EB4A59443E4A /* Debug */,
+				ECDB04AAE9F903A59830B79740780BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE573AA3FF36059CA7AE5808853F5B62 /* Build configuration list for PBXNativeTarget "Pods-HowtoVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9C3DC6F41127FE6FB3C93B49D64572 /* Debug */,
+				8A641CA73F93CC05B5663E46F8BCE9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62AF08C97E2BA1F1FBCF8C24B7FD288 /* Build configuration list for PBXNativeTarget "Pulley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A114E7F65D7DD25DCF8728053705168A /* Debug */,
+				A2287EE81720BDCA7E72694C6425C8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
