@@ -25,14 +25,32 @@ class SearchResultsVC: UIViewController {
 
 }
 
-class PrimaryContentViewController: UIViewController{
+import MapKit
+fileprivate class PrimaryContentViewController: UIViewController{
+    // MARK: - Properties
+    let mapView = MKMapView()
+    
+    // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .purple
+        configureMapView()
+    }
+    
+    // MARK: - Auto layout
+    func configureMapView(){
+        view.addSubview(mapView)
+        mapView.translatesAutoresizingMaskIntoConstraints = false
+        mapView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        mapView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        mapView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        mapView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     }
 }
 
-class DrawerViewController: UIViewController {
+fileprivate class DrawerViewController: UIViewController {
+    // MARK: - Properties
+    
+    // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .brown
