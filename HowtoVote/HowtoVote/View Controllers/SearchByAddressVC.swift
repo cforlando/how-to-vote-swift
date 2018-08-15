@@ -97,8 +97,9 @@ class SearchByAddressVC: UIViewController, UITextFieldDelegate {
     
     // MARK: - Button actions
     @objc func submitTapped() {
-        print("Submit tapped!")
         view.endEditing(true)
+        let searchResultsVC = SearchResultsVC()
+        navigationController?.pushViewController(searchResultsVC, animated: true)
     }
     
     // MARK: - Keyboard listeners

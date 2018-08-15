@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		518BF2E58EC937B4C50FF9EB /* Pods_HowtoVoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3AF44C9AEC931CC08FABB1 /* Pods_HowtoVoteUITests.framework */; };
+		6F5388D92124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
+		6F5388DA2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
+		6F5388DB2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
 		6FD803F32123766500528531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD803F22123766500528531 /* AppDelegate.swift */; };
 		6FD803FA2123766700528531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD803F92123766700528531 /* Assets.xcassets */; };
 		6FD803FD2123766700528531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD803FB2123766700528531 /* LaunchScreen.storyboard */; };
@@ -44,6 +47,7 @@
 		65E4EC414ED60993ADDF1AA6 /* Pods-HowtoVoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVoteTests/Pods-HowtoVoteTests.release.xcconfig"; sourceTree = "<group>"; };
 		68D051C4CE27C926A4397443 /* Pods-HowtoVoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtoVoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowtoVoteUITests/Pods-HowtoVoteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		69E98008692FEE905FE2F3B3 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
 		6FD803EF2123766500528531 /* HowtoVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowtoVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD803F22123766500528531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD803F92123766700528531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				6FD804222123773E00528531 /* SearchByAddressVC.swift */,
+				6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5388D92124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
 				6FD804232123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD803F32123766500528531 /* AppDelegate.swift in Sources */,
 			);
@@ -398,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5388DA2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
 				6FD804242123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD804082123766800528531 /* HowtoVoteTests.swift in Sources */,
 			);
@@ -407,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5388DB2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
 				6FD804252123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD804132123766800528531 /* HowtoVoteUITests.swift in Sources */,
 			);
@@ -560,7 +568,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVote/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -575,7 +586,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVote/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -591,7 +605,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -608,7 +626,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -624,7 +646,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -640,7 +666,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HowtoVoteUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codefororlando.HowtoVoteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
