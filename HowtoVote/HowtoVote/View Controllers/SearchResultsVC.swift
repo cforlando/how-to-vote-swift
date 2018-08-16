@@ -12,8 +12,6 @@ import Pulley
 class SearchResultsVC: UIViewController {
     var pulleyController: PulleyViewController?
     
-    let data = [ "voterAddress":"3630 Thompson Rd.\nLake Mary\nFL, 32746",
-                 "election":""]
     override func viewDidLoad() {
         super.viewDidLoad()
         let mainContentVC = PrimaryContentViewController()
