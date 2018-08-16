@@ -65,7 +65,6 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
         case 0:
             cell.textLabel?.text = "Florida Primary Election\n2018-08-28"
         case 1:
-            cell.textLabel?.textAlignment = .center
             cell.textLabel?.text = "101 South Garland Avenue\nOrlando\nFL, 32801"
         default:
             cell.textLabel?.text = "Polling location \(indexPath.row)"        }
