@@ -18,9 +18,11 @@ class SearchResultsVC: UIViewController {
         let drawerContentVC = DrawerViewController()
         
         pulleyController = PulleyViewController(contentViewController: mainContentVC, drawerViewController: drawerContentVC)
+        pulleyController?.initialDrawerPosition = .partiallyRevealed
         view.addSubview(pulleyController!.view)
         addChildViewController(pulleyController!)
         pulleyController?.didMove(toParentViewController: self)
+        
     }
     
 }
