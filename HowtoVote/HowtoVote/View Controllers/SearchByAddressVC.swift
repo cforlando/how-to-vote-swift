@@ -19,12 +19,13 @@ class SearchByAddressVC: UIViewController, UITextFieldDelegate {
         sv.distribution = .fillEqually
         sv.translatesAutoresizingMaskIntoConstraints = false
         sv.axis = .vertical
+        sv.spacing = 15
         return sv
     }()
     
     let submitButton: UIButton = {
         let btn = UIButton(type: .system)
-        btn.setTitle("Submit", for: .normal)
+        btn.setTitle("Find Voting Location", for: .normal)
         btn.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         return btn
     }()
@@ -65,11 +66,10 @@ class SearchByAddressVC: UIViewController, UITextFieldDelegate {
     func configureStackViewConstraints() {
         let padding:CGFloat = 15
         stackView.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: padding).isActive = true
-        stackView.leftAnchor.constraint(equalTo: scrollView.leftAnchor, constant: padding).isActive = true
-        stackView.rightAnchor.constraint(equalTo: scrollView.rightAnchor, constant: -padding).isActive = true
+        stackView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor).isActive = true
         stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: 0).isActive = true
-        stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor, constant: -padding*2).isActive = true
-        stackView.heightAnchor.constraint(equalTo: scrollView.heightAnchor).isActive = true
+        stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor, multiplier: 0.75).isActive = true
+        stackView.heightAnchor.constraint(equalTo: scrollView.heightAnchor, multiplier: 0.5).isActive = true
     }
     
     // MARK: - Input fields
