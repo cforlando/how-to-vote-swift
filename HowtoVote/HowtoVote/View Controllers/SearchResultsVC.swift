@@ -114,7 +114,14 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        switch section {
+            case 0, 1: // Voter address and election name
+                return 1
+            case 2:
+                return 5 // TODO: return number of polling sites
+            default:
+                return 0
+            }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
