@@ -10,7 +10,7 @@ import UIKit
 
 class DrawerViewController: UIViewController {
     // MARK: - Properties
-    let tableView = UITableView(frame: .zero, style: .grouped)
+    let tableView = UITableView(frame: .zero, style: .plain)
     let tableViewHeaders = [ "Election", "Voter's Address", "Polling Locations"]
     
     // MARK: - View Controller Lifecycle
