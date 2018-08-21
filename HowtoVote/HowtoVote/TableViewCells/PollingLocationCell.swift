@@ -8,8 +8,12 @@
 
 import UIKit
 
+protocol PollingLocationCellDelegate : class {
+    func getDirectionsTapped(_ sender: PollingLocationCell)
+}
+
 class PollingLocationCell: UITableViewCell {
-    
+    weak var delegate: PollingLocationCellDelegate?
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         setupViews()
@@ -17,7 +21,7 @@ class PollingLocationCell: UITableViewCell {
     }
     
     @objc func getDirections(_ sender: UIButton?){
-        print("get directions to \(addressLabel.text ?? "address")")
+        delegate?.getDirectionsTapped(self)
     }
     
     let nameLabel: UILabel = {

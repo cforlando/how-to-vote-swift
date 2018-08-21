@@ -75,6 +75,7 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
             
             cell.nameLabel.text = pollingLocation.name
             cell.addressLabel.text = pollingLocation.address.fullAddress
+            cell.delegate = self
             return cell
         }
         
@@ -113,6 +114,12 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
         return tableViewHeaders[section]
     }
     
+}
+
+extension DrawerViewController: PollingLocationCellDelegate {
+    func getDirectionsTapped(_ sender: PollingLocationCell) {
+        print("TODO: Get directions from\n\(votersAddress.fullAddress)\nto\n \(sender.addressLabel.text ?? "address")")
+    }
 }
 
 extension Date
