@@ -7,6 +7,12 @@
 //
 
 import UIKit
+import MapKit
+
+enum ExternalMapsApp: String {
+    case apple = "Apple Maps"
+    case google = "Google Maps"
+}
 
 class DrawerViewController: UIViewController {
     // MARK: - Properties
@@ -64,7 +70,17 @@ class DrawerViewController: UIViewController {
         tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
     }
     
-    
+    func showDirectionsInAppleMaps(toAddress: String, inMapsApp: ExternalMapsApp? = .apple){
+        let baseURLStr = inMapsApp! == .google ? "comgooglemaps://" : "https://maps.apple.com/"
+        
+        let urlString = "\(baseURLStr)?saddr=\(votersAddress.fullAddress)&daddr=\(toAddress)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        guard let url = URL(string: urlString) else { return }
+        if (UIApplication.shared.canOpenURL(URL(string:baseURLStr)!)) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            NSLog("Can't open external maps app");
+        }
+    }
 }
 extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -117,12 +133,37 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 extension DrawerViewController: PollingLocationCellDelegate {
+    
+    func showDirectionsToActionSheet(toAddress: String) {
+        let optionMenu = UIAlertController(title: nil, message: "Get Directions", preferredStyle: .actionSheet)
+ 
+        if (UIApplication.shared.canOpenURL(URL.init(string: "https://maps.apple.com/")!)) {
+            let appleMapsAction = UIAlertAction(title: "Apple Maps", style: .default) {
+                (alert: UIAlertAction!) -> Void in
+                self.showDirectionsInAppleMaps(toAddress: toAddress, inMapsApp: .apple)
+            }
+            optionMenu.addAction(appleMapsAction)
+        }
+        if (UIApplication.shared.canOpenURL(URL(string: "comgooglemaps://")!)) {
+            let googleMapsAction = UIAlertAction(title: "Google Maps", style: .default) {
+                (alert: UIAlertAction!) -> Void in
+                self.showDirectionsInAppleMaps(toAddress: toAddress, inMapsApp: .google)
+            }
+            optionMenu.addAction(googleMapsAction)
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        optionMenu.addAction(cancelAction)
+        
+        self.present(optionMenu, animated: true)
+    }
+    
     func getDirectionsTapped(_ sender: PollingLocationCell) {
-        print("TODO: Get directions from\n\(votersAddress.fullAddress)\nto\n \(sender.addressLabel.text ?? "address")")
+        showDirectionsToActionSheet(toAddress: sender.addressLabel.text!)
     }
 }
 
-extension Date
+fileprivate extension Date
 {
     func toString() -> String
     {
@@ -132,3 +173,4 @@ extension Date
     }
     
 }
+
