@@ -13,14 +13,23 @@ class DrawerViewController: UIViewController {
     let tableView = UITableView(frame: .zero, style: .plain)
     let tableViewHeaders = [ "Election", "Voter's Address", "Polling Locations"]
     
+    // Dummy data
+    let election = Election.init(id: "0000", name: "Florida Primary Election", electionDay: Date(timeIntervalSinceReferenceDate: 557136000), ocdDivisionId: "divID01")
+    let votersAddress = Address(line1: "101 South Garland Avenue", line2: nil, line3: nil, city: "Orlando", state: "FL", zip: "32801")
+    let pollingLocations = [
+        PollingLocation.init(id: "12345", name: "Election Office", address: Address(line1: "1500 E. Airport Blvd.", line2: nil, line3: nil, city: "Sanford", state: "FL", zip: "32773"), notes: nil),
+        PollingLocation.init(id: "12346", name: "East Branch Library", address: Address(line1: "310 Division St.", line2: nil, line3: nil, city: "Oviedo", state: "FL", zip: "32765"), notes: nil)
+    ]
+
     // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(PollingLocationCell.self, forCellReuseIdentifier: "pollingLocationCell")
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.estimatedRowHeight = 132
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 44
         configureGripperView()
     }
     
@@ -59,15 +68,28 @@ class DrawerViewController: UIViewController {
 }
 extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+        if indexPath.section == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "pollingLocationCell", for: indexPath) as! PollingLocationCell
+            let pollingLocation:PollingLocation = pollingLocations[indexPath.row]
+            
+            cell.nameLabel.text = pollingLocation.name
+            cell.addressLabel.text = pollingLocation.address.fullAddress
+            return cell
+        }
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+
         cell.textLabel?.numberOfLines = 0
         switch indexPath.section {
         case 0:
-            cell.textLabel?.text = "Florida Primary Election\n2018-08-28"
+            cell.textLabel?.text = election.name + "\n" + election.electionDay.toString()
         case 1:
-            cell.textLabel?.text = "101 South Garland Avenue\nOrlando\nFL, 32801"
+            cell.textLabel?.text = votersAddress.fullAddress
         default:
-            cell.textLabel?.text = "Polling location \(indexPath.row)"        }
+            break
+        }
+        
         return cell
         
     }
@@ -81,7 +103,7 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
         case 0, 1: // Election name and voter address
             return 1
         case 2:
-            return 5 // TODO: return number of polling sites
+            return pollingLocations.count
         default:
             return 0
         }
@@ -90,4 +112,16 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return tableViewHeaders[section]
     }
+    
+}
+
+extension Date
+{
+    func toString() -> String
+    {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        return formatter.string(from: self)
+    }
+    
 }

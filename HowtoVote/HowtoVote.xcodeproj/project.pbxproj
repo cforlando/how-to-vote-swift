@@ -14,6 +14,18 @@
 		6F5388D92124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
 		6F5388DA2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
 		6F5388DB2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
+		6FCAC216212B5A3F0081AD07 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC215212B5A3F0081AD07 /* Address.swift */; };
+		6FCAC217212B5A3F0081AD07 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC215212B5A3F0081AD07 /* Address.swift */; };
+		6FCAC218212B5A3F0081AD07 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC215212B5A3F0081AD07 /* Address.swift */; };
+		6FCAC21A212B5D630081AD07 /* PollingLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC219212B5D630081AD07 /* PollingLocation.swift */; };
+		6FCAC21B212B5D630081AD07 /* PollingLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC219212B5D630081AD07 /* PollingLocation.swift */; };
+		6FCAC21C212B5D630081AD07 /* PollingLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC219212B5D630081AD07 /* PollingLocation.swift */; };
+		6FCAC21E212B61C20081AD07 /* Election.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC21D212B61C20081AD07 /* Election.swift */; };
+		6FCAC21F212B61C20081AD07 /* Election.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC21D212B61C20081AD07 /* Election.swift */; };
+		6FCAC220212B61C20081AD07 /* Election.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC21D212B61C20081AD07 /* Election.swift */; };
+		6FCAC223212B66F70081AD07 /* PollingLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC222212B66F70081AD07 /* PollingLocationCell.swift */; };
+		6FCAC224212B66F70081AD07 /* PollingLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC222212B66F70081AD07 /* PollingLocationCell.swift */; };
+		6FCAC225212B66F70081AD07 /* PollingLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC222212B66F70081AD07 /* PollingLocationCell.swift */; };
 		6FD803F32123766500528531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD803F22123766500528531 /* AppDelegate.swift */; };
 		6FD803FA2123766700528531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD803F92123766700528531 /* Assets.xcassets */; };
 		6FD803FD2123766700528531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD803FB2123766700528531 /* LaunchScreen.storyboard */; };
@@ -52,6 +64,10 @@
 		69E98008692FEE905FE2F3B3 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F27235C212522D700B186E2 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
+		6FCAC215212B5A3F0081AD07 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		6FCAC219212B5D630081AD07 /* PollingLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingLocation.swift; sourceTree = "<group>"; };
+		6FCAC21D212B61C20081AD07 /* Election.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Election.swift; sourceTree = "<group>"; };
+		6FCAC222212B66F70081AD07 /* PollingLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingLocationCell.swift; sourceTree = "<group>"; };
 		6FD803EF2123766500528531 /* HowtoVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowtoVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD803F22123766500528531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD803F92123766700528531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FCAC221212B66DC0081AD07 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAC222212B66F70081AD07 /* PollingLocationCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		6FD803E62123766500528531 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +146,7 @@
 		6FD803F12123766500528531 /* HowtoVote */ = {
 			isa = PBXGroup;
 			children = (
+				6FCAC221212B66DC0081AD07 /* TableViewCells */,
 				6FD804212123771300528531 /* Models */,
 				6FD80420212376FE00528531 /* View Controllers */,
 				6FD803F22123766500528531 /* AppDelegate.swift */,
@@ -163,6 +188,9 @@
 		6FD804212123771300528531 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6FCAC215212B5A3F0081AD07 /* Address.swift */,
+				6FCAC219212B5D630081AD07 /* PollingLocation.swift */,
+				6FCAC21D212B61C20081AD07 /* Election.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -399,10 +427,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCAC21E212B61C20081AD07 /* Election.swift in Sources */,
+				6FCAC21A212B5D630081AD07 /* PollingLocation.swift in Sources */,
+				6FCAC223212B66F70081AD07 /* PollingLocationCell.swift in Sources */,
 				6F5388D92124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
 				6F27235D212522D700B186E2 /* DrawerViewController.swift in Sources */,
 				6FD804232123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD803F32123766500528531 /* AppDelegate.swift in Sources */,
+				6FCAC216212B5A3F0081AD07 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +442,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCAC21F212B61C20081AD07 /* Election.swift in Sources */,
+				6FCAC21B212B5D630081AD07 /* PollingLocation.swift in Sources */,
+				6FCAC224212B66F70081AD07 /* PollingLocationCell.swift in Sources */,
 				6F5388DA2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
 				6F27235E212522D700B186E2 /* DrawerViewController.swift in Sources */,
 				6FD804242123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD804082123766800528531 /* HowtoVoteTests.swift in Sources */,
+				6FCAC217212B5A3F0081AD07 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,10 +457,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCAC220212B61C20081AD07 /* Election.swift in Sources */,
+				6FCAC21C212B5D630081AD07 /* PollingLocation.swift in Sources */,
+				6FCAC225212B66F70081AD07 /* PollingLocationCell.swift in Sources */,
 				6F5388DB2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
 				6F27235F212522D700B186E2 /* DrawerViewController.swift in Sources */,
 				6FD804252123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD804132123766800528531 /* HowtoVoteUITests.swift in Sources */,
+				6FCAC218212B5A3F0081AD07 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
