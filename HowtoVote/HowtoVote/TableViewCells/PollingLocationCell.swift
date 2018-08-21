@@ -13,6 +13,11 @@ class PollingLocationCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         setupViews()
+        getDirectionsButton.addTarget(self, action: #selector(getDirections(_ :)), for: .touchUpInside)
+    }
+    
+    @objc func getDirections(_ sender: UIButton?){
+        print("get directions to \(addressLabel.text ?? "address")")
     }
     
     let nameLabel: UILabel = {
@@ -34,9 +39,17 @@ class PollingLocationCell: UITableViewCell {
         return label
     }()
     
+    let getDirectionsButton: UIButton = {
+        let btn = UIButton.init(type: .system)
+        btn.setTitle("Directions", for: .normal)
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        return btn
+    }()
+    
     func setupViews(){
         contentView.addSubview(nameLabel)
         contentView.addSubview(addressLabel)
+        contentView.addSubview(getDirectionsButton)
         
         let padding:CGFloat = 15
         nameLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: padding).isActive = true
@@ -44,7 +57,12 @@ class PollingLocationCell: UITableViewCell {
         addressLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: padding).isActive = true
         addressLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.75).isActive = true
         
-        contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[nameLabel]-8-[addressLabel]-|", options: [], metrics: nil, views: ["nameLabel": nameLabel, "addressLabel": addressLabel]))
+        contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[nameLabel]-8-[addressLabel]-|", options: [], metrics: nil, views:  ["nameLabel": nameLabel, "addressLabel": addressLabel]))
+        
+        getDirectionsButton.widthAnchor.constraint(lessThanOrEqualToConstant: 100.0).isActive = true
+        getDirectionsButton.heightAnchor.constraint(lessThanOrEqualToConstant: 44).isActive = true
+        getDirectionsButton.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -padding).isActive = true
+        getDirectionsButton.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
 
     }
     
