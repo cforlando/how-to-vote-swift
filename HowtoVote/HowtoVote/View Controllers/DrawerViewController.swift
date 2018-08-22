@@ -18,19 +18,33 @@ enum TableViewSection: Int {
     case election = 0, voterAddress, pollingLocations
 }
 
+protocol DrawerDelegate : class {
+    func showLocation(title:String, address: String)
+}
+
 class DrawerViewController: UIViewController {
+    
     // MARK: - Properties
+    var delegate: DrawerDelegate?
     let tableView = UITableView(frame: .zero, style: .plain)
     let tableViewHeaders = [ "Election", "Voter's Address", "Polling Locations"]
     
-    // Dummy data
-    let election = Election.init(id: "0000", name: "Florida Primary Election", electionDay: Date(timeIntervalSinceReferenceDate: 557136000), ocdDivisionId: "divID01")
-    let votersAddress = Address(line1: "101 South Garland Avenue", line2: nil, line3: nil, city: "Orlando", state: "FL", zip: "32801")
-    let pollingLocations = [
-        PollingLocation.init(id: "12345", name: "Election Office", address: Address(line1: "1500 E. Airport Blvd.", line2: nil, line3: nil, city: "Sanford", state: "FL", zip: "32773"), notes: nil),
-        PollingLocation.init(id: "12346", name: "East Branch Library", address: Address(line1: "310 Division St.", line2: nil, line3: nil, city: "Oviedo", state: "FL", zip: "32765"), notes: nil)
-    ]
-
+    let election: Election
+    let votersAddress: Address
+    let pollingLocations:[PollingLocation]
+    
+    init(withData data: [String:Any]) {
+        
+        election = data["election"] as! Election
+        votersAddress = data["votersAddress"] as! Address
+        pollingLocations = data["pollingLocations"] as! [PollingLocation]
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     // MARK: - View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +55,7 @@ class DrawerViewController: UIViewController {
         tableView.estimatedRowHeight = 132
         tableView.rowHeight = UITableViewAutomaticDimension
         configureGripperView()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -89,12 +104,11 @@ class DrawerViewController: UIViewController {
 extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        if indexPath.section == 2 {
+        if TableViewSection(rawValue: indexPath.section) == TableViewSection.pollingLocations {
             let cell = tableView.dequeueReusableCell(withIdentifier: "pollingLocationCell", for: indexPath) as! PollingLocationCell
             let pollingLocation:PollingLocation = pollingLocations[indexPath.row]
             
-            cell.nameLabel.text = pollingLocation.name
-            cell.addressLabel.text = pollingLocation.address.fullAddress
+            cell.pollingLocation = pollingLocation
             cell.delegate = self
             return cell
         }
@@ -108,9 +122,8 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
             cell.selectionStyle = .none
         case .voterAddress?:
             cell.textLabel?.text = votersAddress.fullAddress
-            cell.selectionStyle = .none
         default:
-            cell.selectionStyle = .none
+            break
         }
         
         return cell
@@ -137,8 +150,24 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Selected \(indexPath)")
         tableView.deselectRow(at: indexPath, animated: true)
+        let section = TableViewSection(rawValue: indexPath.section)
+        var locationName: String
+        var address: String
+        if section == .pollingLocations {
+            let pollingLoc = pollingLocations[indexPath.row] as PollingLocation
+            locationName = pollingLoc.name
+            address = pollingLoc.address.fullAddress
+        } else if section == .voterAddress {
+            locationName = "Voter's address"
+            address = votersAddress.fullAddress
+        } else {
+            return
+        }
+        
+        if let delegate = delegate {
+            delegate.showLocation(title: locationName, address: address)
+        }
     }
     
 }
