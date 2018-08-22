@@ -14,6 +14,10 @@ enum ExternalMapsApp: String {
     case google = "Google Maps"
 }
 
+enum TableViewSection: Int {
+    case election = 0, voterAddress, pollingLocations
+}
+
 class DrawerViewController: UIViewController {
     // MARK: - Properties
     let tableView = UITableView(frame: .zero, style: .plain)
@@ -98,13 +102,15 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
         cell.textLabel?.numberOfLines = 0
-        switch indexPath.section {
-        case 0:
+        switch TableViewSection(rawValue: indexPath.section) {
+        case .election?:
             cell.textLabel?.text = election.name + "\n" + election.electionDay.toString()
-        case 1:
+            cell.selectionStyle = .none
+        case .voterAddress?:
             cell.textLabel?.text = votersAddress.fullAddress
+            cell.selectionStyle = .none
         default:
-            break
+            cell.selectionStyle = .none
         }
         
         return cell
@@ -116,10 +122,10 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch section {
-        case 0, 1: // Election name and voter address
+        switch TableViewSection(rawValue: section) {
+        case .election?, .voterAddress?:
             return 1
-        case 2:
+        case .pollingLocations?:
             return pollingLocations.count
         default:
             return 0
@@ -128,6 +134,11 @@ extension DrawerViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return tableViewHeaders[section]
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Selected \(indexPath)")
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
 }
