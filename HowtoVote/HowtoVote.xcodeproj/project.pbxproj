@@ -14,6 +14,9 @@
 		6F5388D92124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
 		6F5388DA2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
 		6F5388DB2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */; };
+		6FADAE8A21320DA000DF0A6B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FADAE8921320DA000DF0A6B /* MapViewController.swift */; };
+		6FADAE8B21320DA000DF0A6B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FADAE8921320DA000DF0A6B /* MapViewController.swift */; };
+		6FADAE8C21320DA000DF0A6B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FADAE8921320DA000DF0A6B /* MapViewController.swift */; };
 		6FCAC216212B5A3F0081AD07 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC215212B5A3F0081AD07 /* Address.swift */; };
 		6FCAC217212B5A3F0081AD07 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC215212B5A3F0081AD07 /* Address.swift */; };
 		6FCAC218212B5A3F0081AD07 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAC215212B5A3F0081AD07 /* Address.swift */; };
@@ -64,6 +67,7 @@
 		69E98008692FEE905FE2F3B3 /* Pods_HowtoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtoVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F27235C212522D700B186E2 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
+		6FADAE8921320DA000DF0A6B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6FCAC215212B5A3F0081AD07 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		6FCAC219212B5D630081AD07 /* PollingLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingLocation.swift; sourceTree = "<group>"; };
 		6FCAC21D212B61C20081AD07 /* Election.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Election.swift; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 				6FD804222123773E00528531 /* SearchByAddressVC.swift */,
 				6F5388D82124AB7D0044B8C2 /* SearchResultsVC.swift */,
 				6F27235C212522D700B186E2 /* DrawerViewController.swift */,
+				6FADAE8921320DA000DF0A6B /* MapViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 				6FCAC21A212B5D630081AD07 /* PollingLocation.swift in Sources */,
 				6FCAC223212B66F70081AD07 /* PollingLocationCell.swift in Sources */,
 				6F5388D92124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
+				6FADAE8A21320DA000DF0A6B /* MapViewController.swift in Sources */,
 				6F27235D212522D700B186E2 /* DrawerViewController.swift in Sources */,
 				6FD804232123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD803F32123766500528531 /* AppDelegate.swift in Sources */,
@@ -446,6 +452,7 @@
 				6FCAC21B212B5D630081AD07 /* PollingLocation.swift in Sources */,
 				6FCAC224212B66F70081AD07 /* PollingLocationCell.swift in Sources */,
 				6F5388DA2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
+				6FADAE8B21320DA000DF0A6B /* MapViewController.swift in Sources */,
 				6F27235E212522D700B186E2 /* DrawerViewController.swift in Sources */,
 				6FD804242123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD804082123766800528531 /* HowtoVoteTests.swift in Sources */,
@@ -461,6 +468,7 @@
 				6FCAC21C212B5D630081AD07 /* PollingLocation.swift in Sources */,
 				6FCAC225212B66F70081AD07 /* PollingLocationCell.swift in Sources */,
 				6F5388DB2124AB7D0044B8C2 /* SearchResultsVC.swift in Sources */,
+				6FADAE8C21320DA000DF0A6B /* MapViewController.swift in Sources */,
 				6F27235F212522D700B186E2 /* DrawerViewController.swift in Sources */,
 				6FD804252123773E00528531 /* SearchByAddressVC.swift in Sources */,
 				6FD804132123766800528531 /* HowtoVoteUITests.swift in Sources */,
