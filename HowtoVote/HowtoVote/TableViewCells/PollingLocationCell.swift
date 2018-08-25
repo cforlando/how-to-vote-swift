@@ -14,6 +14,13 @@ protocol PollingLocationCellDelegate : class {
 
 class PollingLocationCell: UITableViewCell {
     weak var delegate: PollingLocationCellDelegate?
+    var pollingLocation: PollingLocation? {
+        didSet {
+            self.nameLabel.text = pollingLocation?.name
+            self.addressLabel.text = pollingLocation?.address.fullAddress
+        }
+    }
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         setupViews()
